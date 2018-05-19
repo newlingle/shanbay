@@ -1,4 +1,0 @@
-#LWP-Cookies-2.0
-Set-Cookie3: auth_token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImZlbmd5dWVyMjAxNyIsImRldmljZSI6MCwiaXNfc3RhZmYiOmZhbHNlLCJpZCI6MTA3ODAyMzcwLCJleHAiOjE1MjU3NTYyOTF9.ZdjZZoFTZNu1dSvbwhYfl8IWnR1oSw1_6wYTl5ghOdw"; path="/"; domain=".shanbay.com"; path_spec; domain_dot; expires="2018-05-08 05:11:29Z"; httponly=None; version=0
-Set-Cookie3: csrftoken=jAlF795acb9jl4yAELlFOUBQtTil0T09; path="/"; domain=".shanbay.com"; path_spec; domain_dot; expires="2019-04-27 05:11:29Z"; version=0
-Set-Cookie3: sessionid="\".eJyrVopPLC3JiC8tTi2KT0pMzk7NS1GyUkrOz83Nz9MDS0FFi_UCUotyM4uLM_PznFJTnaBqdZANyATqNTQwtzAwMjY3qAUAR8Mg8A:1fCI8x:nHYf0P2HNuAJ9QmTgrYd7BMoVqg\""; path="/"; domain=".shanbay.com"; path_spec; domain_dot; expires="2018-05-08 05:11:29Z"; httponly=None; version=0
