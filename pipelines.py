@@ -23,8 +23,8 @@ class MysqlPipeline(object):
 
     def process_item(self, item, spider):
         insert_sql = """
-            insert into shanbay(user_name, listen_num, reading_num, word_num, training_num,sentence_num,course_num,speaking_num, voc_all, study_time)
-            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+            insert into shanbay(user_name, listen_num, reading_num, word_num, training_num,sentence_num,course_num,speaking_num, study_time, voc_all, voc_grasp)
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
         """
-        self.cursor.execute(insert_sql, (item["user_name"], item["listen_num"], item["reading_num"], item["word_num"], item["training_num"],item["sentence_num"],item["course_num"],item["speaking_num"],item["voc_all"],item["study_time"]))
+        self.cursor.execute(insert_sql, (item["user_name"], item["listen_num"], item["reading_num"], item["word_num"], item["training_num"],item["sentence_num"],item["course_num"],item["speaking_num"],item["study_time"],item["voc_all"],item["voc_grasp"]))
         self.conn.commit()
